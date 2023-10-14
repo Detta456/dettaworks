@@ -68,7 +68,7 @@ nav div a img{
 	background-image: url(../img/bg1.png);
 	background-position:center;
 	background-size: cover;
-	height: 60vh;
+	height: 70vh;
 	background-color: blue;
 	color: white;
 	margin-top: -5px;
@@ -230,7 +230,7 @@ nav div a img{
 	background-image:url(../img/bg6.jpg);
 	background-position:center;
 	background-size: cover;
-	height: 50vh;
+	height: 60vh;
 	border-radius:8px;
 
 }
@@ -509,7 +509,7 @@ nav div a img{
 	/*background-color:whitesmoke;*/
 	background-position:center;
 	background-size: contain;
-	height: 50vh;
+	height: 60vh;
 	width: 100%;
 	border-radius:8px;
 	overflow: hidden;
