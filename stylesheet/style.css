@@ -1,0 +1,561 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+	font-family:Ubuntu;
+	font-style: bolder;
+	
+}
+
+nav div ul{
+	padding: 0px 95px;
+
+}
+
+nav div ul li a{
+	font-size: 18px;
+	margin-left: 20px;
+	color: black;
+
+}
+
+
+nav div a img{
+	width: 80px;
+	padding: 0px;
+	margin-left: 20px;
+}
+
+
+/* porfolio link*/
+
+.portfolio{
+	background-color:#ff6600;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 0px;
+	padding: 10px;
+
+
+}
+
+
+.portfolio h4 a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	
+}
+
+
+.portfolio h4 a:hover{
+	color:white;
+}
+
+.portfolio:hover{
+	background-color:black;
+	color: white;
+	transition: 0.3s;
+}
+
+
+/* End of porfolio link */
+
+
+/* topic-banner*/
+
+.topic-banner{
+	background-image: url(../img/bg1.png);
+	background-position:center;
+	background-size: cover;
+	height: 60vh;
+	background-color: blue;
+	color: white;
+	margin-top: -5px;
+	z-index: -5;	
+	width: 100%;
+
+}
+
+
+.topic-banner h1{
+	text-align: center;
+	padding-top: 100px;
+	max-width: 1050px;
+	margin: auto;
+	font-weight: 900;
+	font-size: 45px;
+
+
+}
+
+.topic-banner p{
+	text-align: center;
+
+
+}
+
+/* End of topic-banner*/
+
+
+/* border boxes*/
+
+.mainorder-box{
+	
+	background-color:#000010;
+	background-image: linear-gradient(315deg,#000000 0%,#41414174%);
+	margin: auto;
+
+}
+
+.box-body{
+	
+	border-right:1px solid white;
+
+}
+
+
+
+.box1{
+	background-color: black;
+	background-image:url(../img/bg7.png);
+	background-position:center;
+	background-size: cover;
+	height: 30vh;
+	border-radius:8px;
+
+}
+
+.box2:hover, .box1:hover{
+	transform: scale(1.04);
+	transition: 0.2s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+.box1 h2{
+	color: white;
+	text-align: center;
+	padding-top:80px;
+}
+
+
+.box2{
+	background-color: black;
+	background-image:url(../img/bg9.jpg);
+	background-position:center;
+	background-size: cover;
+	height: 30vh;
+	border-radius:8px;
+}
+
+.p-bg{
+	background-color: whitesmoke;
+	border-radius: 6px;
+
+}
+
+
+
+
+
+
+
+
+.box2 h2{
+	color: white;
+	text-align: center;
+	padding-top:80px;
+}
+
+
+.box2-text h1, .box1-text h1{
+	font-weight: 700;
+	color:#ff6600;/*orange*/;
+	text-transform: uppercase;
+	background-color: whitesmoke;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top:5px ;
+	margin-bottom: 25px;
+	font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.box2-text a, .box1-text a{
+
+	text-decoration: none;
+	color:black;
+
+
+}
+
+
+
+.box2-text a:hover, .box1-text a:hover{
+	color:#ff6600;/*orange*/
+
+}
+
+/* End of border boxes*/
+
+/*start of about section in home page*/
+
+.about-section{
+	background-color:whitesmoke;
+	margin-top: 50px;
+}
+
+
+.aboutimg{
+
+	background-color: black;
+	background-image:url(../img/bg6.jpg);
+	background-position:center;
+	background-size: cover;
+	height: 50vh;
+	border-radius:8px;
+
+}
+
+/* End of about section in home page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start of portfolio page*/
+
+.graphic-design-container{
+	width: 100%;
+	background-color:lightslategray;
+	height:0px;
+	transition: 0.3s ease-out;
+	margin: auto;
+	overflow:scroll;
+	
+
+}
+
+.graphic-design-img{
+	transition: 0.4s ease-in;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+
+
+
+
+
+.graphic-design-img img{
+	width: 100%;
+	height:0px;
+	object-fit:cover;
+	margin-top: 10px;
+	border-radius: 5px;
+	
+}
+
+.graphic-design-img img.longimg{
+	object-fit:contain;
+	border: 1px solid white;
+
+}
+
+
+
+
+.web-development-container{
+
+	width: 100%;
+	background-color:lightslategray;
+	height:0px;
+	transition: 0.3s ease-out;
+	margin: auto;
+	overflow:scroll;
+
+}
+
+.web-design{
+	margin-bottom: 20px;
+}
+
+.web-design img {
+	margin-top: 10px;
+	background-color: black;
+	border-radius: 8px;
+	height:30vh;
+	overflow:hidden;
+	object-fit:cover;
+}
+
+
+
+.portfolio-banner{
+	background-image:url(../img/bg7.png);
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	width: 100%;
+	max-width: 100%;
+}
+
+.portfolio-container{
+	
+	max-width: 100%;
+	width:100;
+	padding: 10px;
+}
+
+.portfolio-banner-heading{
+	color: white;
+	padding-top: 5%;
+	
+}
+
+
+
+.portfolio-banner-slide{
+
+	
+	height: 400px;
+	margin-top: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+.portfolio-banner-slide-bg{
+	
+	height: 60vh;
+	width: 100%;
+	border: 1px solid white;
+	padding: none;
+	overflow: hidden;
+	padding-left: 0em;
+	padding-right: 0em;
+	border-radius: 8px;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+
+}
+
+
+
+
+.portfolio-banner-slide-image{
+	width:100%;
+	height: 100%;
+	background-color:grey;
+	padding-left: 0em;
+	padding-right: 0em;
+	display: flex;
+	transition: all 0.5s;
+	flex-shrink: 0;
+	
+	
+	
+
+
+}
+
+
+
+
+
+
+.portfolio-banner-slide-image img{
+	width:100%;
+	height:60vh;
+	margin-bottom: 20%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	object-fit:cover;
+	object-position: center;
+	transform:scale(1.0);
+	justify-content:flex-start;
+	position: absolute;
+	transition: 0.4s;
+	animation-timing-function:ease-in-out;
+}
+
+.portfolio-banner-slide-image img.slide{
+		object-fit:contain;
+		background-color: white;
+}
+
+
+
+
+
+
+
+.buttons{
+
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 20px;
+	outline:1px solid white;
+	border: none;
+	position: absolute;
+	z-index: 5;
+	top: 50%;
+
+}
+
+.prev{
+	left: 0.1rem;
+	cursor: pointer;
+}
+
+.next{
+	right: 0.1rem;
+	cursor: pointer;
+}
+
+
+.next:hover{
+	background-color:#ff6600; /*orange*/ 
+}
+
+.prev:hover{
+	background-color:#ff6600; /*orange*/ 
+}
+
+
+
+/*start of about me page*/
+
+.about-topic-banner{
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg10.jpg);
+	background-position:center;
+	background-size: cover;
+	height: 60vh;
+	background-color: blue;
+	color: white;
+	margin-top: -5px;
+	z-index: -5;	
+	width: 100%;
+
+}
+
+.about-topic-banner h1{
+	text-align: center;
+	padding-top: 100px;
+	max-width: 1050px;
+	margin: auto;
+	font-weight: 900;
+	font-size: 45px;
+
+
+}
+
+
+.about-topic-banner p{
+	text-align: center;
+
+
+}
+
+.aboutme{
+	/*background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/bg7.png);*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+
+.aboutvid{
+
+	/*background-color:whitesmoke;*/
+	background-position:center;
+	background-size: contain;
+	height: 50vh;
+	width: 100%;
+	border-radius:8px;
+	overflow: hidden;
+	justify-content:center ;
+	align-items: center;
+	display: flex;
+
+}
+
+
+
+
+/*end of about me page*/
+
+
+
+
+/*start of contact page*/
+
+.maincontact{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../img/bg9.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+
+}
+
+.contactbg{
+	width: 100%;
+	height: 30%;
+	color: white;
+	text-align: center;
+	transform: translateY(80%);
+	position: relative;
+
+	
+	
+
+
+
+}
+
+/*end of contact page*/
+
+
